@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: relative;
+    background: rgb(26, 23, 22);
+    height: 100vh;
+}
+
+#rowPosition {
+    position: absolute;
+    top: 60%;
+    margin-left: 36%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #rowPosition {
+        flex-direction: column;
+        margin-left: 30%;
+    }
+}
